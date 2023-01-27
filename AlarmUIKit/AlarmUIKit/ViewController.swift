@@ -33,9 +33,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
         setup()
-        
         myTable.delegate = self
         myTable.dataSource = self
+        
     }
     
     override func viewDidLayoutSubviews() {
@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         myTable.frame = view.frame(forAlignmentRect: CGRect(x: 10, y: 300, width: 400, height: 500))
         myTable.backgroundColor = .black
     }
+    
     // MARK: - private
     
     private func setup() {

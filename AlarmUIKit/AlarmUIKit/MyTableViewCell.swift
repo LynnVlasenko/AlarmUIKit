@@ -54,7 +54,7 @@ class MyTableViewCell: UITableViewCell {
             timeLbl.topAnchor.constraint (equalTo: contentView.topAnchor, constant: 10)
         ]
         
-        let statusLb1Constraints = [
+        let statusLblConstraints = [
             statusLbl.leadingAnchor.constraint(equalTo:contentView.leadingAnchor,constant:20),
             statusLbl.topAnchor.constraint (equalTo: timeLbl.bottomAnchor),
             statusLbl.bottomAnchor.constraint(equalTo:contentView.bottomAnchor,constant: -20),
@@ -66,7 +66,7 @@ class MyTableViewCell: UITableViewCell {
         ]
         
         NSLayoutConstraint.activate(timeLblConstraints)
-        NSLayoutConstraint.activate(statusLb1Constraints)
+        NSLayoutConstraint.activate(statusLblConstraints)
         NSLayoutConstraint.activate(uiSwitchConstraints)
         
     }
