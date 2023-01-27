@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         setup()
         myTable.delegate = self
         myTable.dataSource = self
-        
+        //let tabBar = MainTabBar.viewDidLoad(MainTabBar())
     }
     
     override func viewDidLayoutSubviews() {
